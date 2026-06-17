@@ -1,9 +1,9 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
-$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$base-font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 $base-font-weight: 400;
 $brand-color: #5b7c99;
 $background-color: #fdfdfb;
@@ -11,14 +11,31 @@ $text-color: #3a3a3a;
 
 @import "minima";
 
+body {
+  padding-top: 40px;
+}
+
 .site-header {
   border-top: 4px solid $brand-color;
   border-bottom: 1px solid $grey-color-light;
 }
 
+.site-header .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .site-title {
+  float: none;
   font-weight: 500;
   letter-spacing: -0.01em;
+}
+
+.site-nav {
+  float: none;
+  margin-top: 10px;
 }
 
 .post-list > li {
