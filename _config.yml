@@ -1,2 +1,3 @@
 title: Predicting Polymer Chromatography Conditions with Machine Learning
 description: A summer project building a machine learning model to predict polymer LCCC conditions, built on the PolyCrit database.
+theme: minima 
