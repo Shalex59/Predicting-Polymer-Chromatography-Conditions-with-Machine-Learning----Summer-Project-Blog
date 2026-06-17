@@ -1,5 +1,5 @@
 layout: post
-title: "Why I'm Building This"
+title: "Why I Am Building This"
 date: 2026-06-17
 
 Polymer chemists trying to characterize complex polymer samples, branching, end groups, chain topology, rather than just molecular weight, rely on a specialized chromatography technique called LCCC (liquid chromatography at critical conditions). The issue is the large amount of time, effort, and empirical data required for these projects, not to mention the costs associated with such a project. Finding the right combination of solvent ratio, column type, and temperature to actually reach that critical condition for a given polymer is mostly trial and error, and the data on what's worked before is scattered across decades of individual papers.
